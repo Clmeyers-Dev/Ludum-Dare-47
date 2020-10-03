@@ -62,10 +62,20 @@ public class Player : MonoBehaviour
             }
             flashCounter -= Time.deltaTime;
         }
+        if(currentHealth <= 0)
+        {
+            Debug.Log("kill player and bring to first level");
+            //kill player and send back to first scene 
+        }
 
         
 
     }
-
+    public void hurtPlayer(int damage)
+    {
+        currentHealth -= damage;
+        flashActive = true;
+        
+    }
 }
 
