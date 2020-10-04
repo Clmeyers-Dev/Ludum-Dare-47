@@ -1,7 +1,103 @@
 fileFormatVersion: 2
 guid: cf8f48d3d2690b745aa1aaed439e2e7c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5119140253267065378
+    second: LDJAM_Player-Sheet_0
+  - first:
+      213: -5966133163396922333
+    second: LDJAM_Player-Sheet_1
+  - first:
+      213: -5575833638170067825
+    second: LDJAM_Player-Sheet_2
+  - first:
+      213: -7869252886662178253
+    second: LDJAM_Player-Sheet_3
+  - first:
+      213: 2961459460824546459
+    second: LDJAM_Player-Sheet_4
+  - first:
+      213: -9146816448164526738
+    second: LDJAM_Player-Sheet_5
+  - first:
+      213: -2240507967050240897
+    second: LDJAM_Player-Sheet_6
+  - first:
+      213: 7395342161926852248
+    second: LDJAM_Player-Sheet_7
+  - first:
+      213: 8592608563686096680
+    second: LDJAM_Player-Sheet_8
+  - first:
+      213: -1568496780123672906
+    second: LDJAM_Player-Sheet_9
+  - first:
+      213: -6527234004830653405
+    second: LDJAM_Player-Sheet_10
+  - first:
+      213: -858107174867431410
+    second: LDJAM_Player-Sheet_11
+  - first:
+      213: 1953488138484531867
+    second: LDJAM_Player-Sheet_12
+  - first:
+      213: 6987613850312892546
+    second: LDJAM_Player-Sheet_13
+  - first:
+      213: 8222278714416551033
+    second: LDJAM_Player-Sheet_14
+  - first:
+      213: -4175570738650167861
+    second: LDJAM_Player-Sheet_15
+  - first:
+      213: -8560488010959412528
+    second: LDJAM_Player-Sheet_16
+  - first:
+      213: 3234513543147692800
+    second: LDJAM_Player-Sheet_17
+  - first:
+      213: 1706006027335393802
+    second: LDJAM_Player-Sheet_18
+  - first:
+      213: 2310427114977312940
+    second: LDJAM_Player-Sheet_19
+  - first:
+      213: -8702081309184452183
+    second: LDJAM_Player-Sheet_20
+  - first:
+      213: 5109802539597738574
+    second: LDJAM_Player-Sheet_21
+  - first:
+      213: 2284942734270156306
+    second: LDJAM_Player-Sheet_22
+  - first:
+      213: 4234984048087284767
+    second: LDJAM_Player-Sheet_23
+  - first:
+      213: -8257414897986063350
+    second: LDJAM_Player-Sheet_24
+  - first:
+      213: -7184397354584742871
+    second: LDJAM_Player-Sheet_25
+  - first:
+      213: -6366063005781777970
+    second: LDJAM_Player-Sheet_26
+  - first:
+      213: -1900223374663122941
+    second: LDJAM_Player-Sheet_27
+  - first:
+      213: -8976513723855790492
+    second: LDJAM_Player-Sheet_28
+  - first:
+      213: 5956302735211051705
+    second: LDJAM_Player-Sheet_29
+  - first:
+      213: 7378576247710065109
+    second: LDJAM_Player-Sheet_30
+  - first:
+      213: -8030313417934785910
+    second: LDJAM_Player-Sheet_31
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +127,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +136,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,9 +167,705 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 227
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed50d90ef0925f8b0800000000000000
+      internalID: -5119140253267065378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 227
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3248c017f79043da0800000000000000
+      internalID: -5966133163396922333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 227
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cf23e19d8ae92b0800000000000000
+      internalID: -5575833638170067825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 227
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a98c2513ccac290800000000000000
+      internalID: -7869252886662178253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 195
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cba2b60b7391920800000000000000
+      internalID: 2961459460824546459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 195
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65047df6eaff0180800000000000000
+      internalID: -9146816448164526738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 195
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ca98befdd18e0e0800000000000000
+      internalID: -2240507967050240897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 195
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e8e1a938881a660800000000000000
+      internalID: 7395342161926852248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f3d7c86f31f3770800000000000000
+      internalID: 8592608563686096680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 163
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be626d1d749b3ae0800000000000000
+      internalID: -1568496780123672906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 163
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324f730614b9a65a0800000000000000
+      internalID: -6527234004830653405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 163
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0010d622146714f0800000000000000
+      internalID: -858107174867431410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 131
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b924f47ac1f2c1b10800000000000000
+      internalID: 1953488138484531867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 131
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280ef7f56cdf8f060800000000000000
+      internalID: 6987613850312892546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 131
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974dd016de66b1270800000000000000
+      internalID: 8222278714416551033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 131
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5cd3c49846d06c0800000000000000
+      internalID: -4175570738650167861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 99
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d226ca6289033980800000000000000
+      internalID: -8560488010959412528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 99
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00322882eec43ec20800000000000000
+      internalID: 3234513543147692800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 99
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02600c6173fca710800000000000000
+      internalID: 1706006027335393802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 99
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca047ab4839401020800000000000000
+      internalID: 2310427114977312940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 67
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a99e77a72ffb3780800000000000000
+      internalID: -8702081309184452183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 67
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42bc1d365aa9e640800000000000000
+      internalID: 5109802539597738574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 67
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e48488f4fb5bf10800000000000000
+      internalID: 2284942734270156306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 67
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c30b7cd8fa5ca30800000000000000
+      internalID: 4234984048087284767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 35
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04b58266e4c76d80800000000000000
+      internalID: -8257414897986063350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 35
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92468baaba4eb4c90800000000000000
+      internalID: -7184397354584742871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 35
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec12f92dc6337a7a0800000000000000
+      internalID: -6366063005781777970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 35
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3008f4798ec01a5e0800000000000000
+      internalID: -1900223374663122941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e1828e3540d6380800000000000000
+      internalID: -8976513723855790492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 3
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba31f2a7c909a250800000000000000
+      internalID: 5956302735211051705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 3
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1a4e00108f56660800000000000000
+      internalID: 7378576247710065109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LDJAM_Player-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82b1f82e789e8090800000000000000
+      internalID: -8030313417934785910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

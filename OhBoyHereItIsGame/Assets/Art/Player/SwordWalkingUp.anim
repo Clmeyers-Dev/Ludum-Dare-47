@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_IdleDown
+  m_Name: SwordWalkingUp
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,19 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -5119140253267065378, guid: 3c466875d77f95640b718907198afee9,
+      value: {fileID: 8592608563686096680, guid: cf8f48d3d2690b745aa1aaed439e2e7c,
+        type: 3}
+    - time: 0.16666667
+      value: {fileID: -1568496780123672906, guid: cf8f48d3d2690b745aa1aaed439e2e7c,
+        type: 3}
+    - time: 0.35
+      value: {fileID: -6527234004830653405, guid: cf8f48d3d2690b745aa1aaed439e2e7c,
+        type: 3}
+    - time: 0.51666665
+      value: {fileID: -858107174867431410, guid: cf8f48d3d2690b745aa1aaed439e2e7c,
+        type: 3}
+    - time: 0.6166667
+      value: {fileID: -6527234004830653405, guid: cf8f48d3d2690b745aa1aaed439e2e7c,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -41,13 +53,17 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -5119140253267065378, guid: 3c466875d77f95640b718907198afee9, type: 3}
+    - {fileID: 8592608563686096680, guid: cf8f48d3d2690b745aa1aaed439e2e7c, type: 3}
+    - {fileID: -1568496780123672906, guid: cf8f48d3d2690b745aa1aaed439e2e7c, type: 3}
+    - {fileID: -6527234004830653405, guid: cf8f48d3d2690b745aa1aaed439e2e7c, type: 3}
+    - {fileID: -858107174867431410, guid: cf8f48d3d2690b745aa1aaed439e2e7c, type: 3}
+    - {fileID: -6527234004830653405, guid: cf8f48d3d2690b745aa1aaed439e2e7c, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.016666668
+    m_StopTime: 0.6333333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

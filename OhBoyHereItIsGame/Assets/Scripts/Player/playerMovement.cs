@@ -38,6 +38,7 @@ public class playerMovement : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
+        animator.SetBool("HasSword", hasSword);
         handleMovement();
        
         
@@ -108,17 +109,19 @@ public class playerMovement : MonoBehaviour {
     }
     public void handleAblities()
     {
-        if (isAttacking)
+        if (isAttacking&& hasSword)
         {
             moveSpeed = 0f;
             attackCounter -= Time.deltaTime;
+            
             if (attackCounter <= 0)
             {
                 animator.SetBool("isAttacking", false);
                 isAttacking = false;
+                moveSpeed = 10;
             }
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space)&&hasSword)
         {
             attackCounter = attackTime;
             animator.SetBool("isAttacking", true);
