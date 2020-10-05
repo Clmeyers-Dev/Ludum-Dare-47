@@ -20,20 +20,37 @@ public class DefaultEnemy : MonoBehaviour
     public EnemyHealthManager eHealthMan;
     [SerializeField]
     private bool regularFollow;
+    public bool playerInRange;
+    public float meleeRange=2;
+    public bool melee;
     // Use this for initialization
     void Start()
     {
         playMove = FindObjectOfType<playerMovement>();
         target = FindObjectOfType<playerMovement>().transform;
     }
-
-    void Update()
+  
+    void  LateUpdate()
     {
         if (Vector3.Distance(target.position, transform.position) <= maxRange && Vector3.Distance(target.position, transform.position) >= minRange && regularFollow)
         {
+           
             FollowPlayer();
         }
-        
+        else
+        {
+            
+        }
+        if(Vector3.Distance(target.position,transform.position)<=maxRange && Vector3.Distance(target.position, transform.position) <= meleeRange)
+        {
+            melee = true;
+           
+        }
+        else
+        {
+            melee = false;
+            
+        }
 
 
     }

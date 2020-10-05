@@ -128,15 +128,6 @@ public class playerMovement : MonoBehaviour {
             isAttacking = true;
         }
 
-        if (canRanged)
-        {
-            if (hasSword)
-            {
-                //useSword
-                hasSword = false;
-            }
-          
-        }
         if (canDash)
         {
             if (direction == 0)
@@ -239,6 +230,10 @@ public class playerMovement : MonoBehaviour {
     public void setHasSword(bool has)
     {
         hasSword = has;
+    }
+    public void setCanRanged(bool can)
+    {
+        canRanged = can;
     }
     private void OnTriggerEnter2D(Collider2D other)
     {

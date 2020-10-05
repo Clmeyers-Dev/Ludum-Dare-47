@@ -30,7 +30,7 @@ public class HurtEnemy : MonoBehaviour
         {
            eHManager = other.GetComponent<EnemyHealthManager>();
             eHManager.HurtEnemy(playerDamage);
-            Destroy(other.gameObject);
+            //Destroy(other.gameObject);
         }
     }
 }

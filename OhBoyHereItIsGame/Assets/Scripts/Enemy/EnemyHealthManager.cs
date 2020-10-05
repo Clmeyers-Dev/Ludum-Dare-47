@@ -69,7 +69,7 @@ public class EnemyHealthManager : MonoBehaviour
         {
             // sound();
             Instantiate(deathDust, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            
         }
     }
 }

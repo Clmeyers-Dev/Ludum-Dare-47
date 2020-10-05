@@ -75,7 +75,8 @@ public class Player : MonoBehaviour
     {
         currentHealth -= damage;
         flashActive = true;
-        
+        flashCounter = flashLength;
+
     }
 }
 

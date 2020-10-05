@@ -32,7 +32,7 @@ public class RangedWeapon : MonoBehaviour
 
         if (timeBtwShots <= 0)
         {
-            if (Input.GetMouseButtonDown(1)&&playMove.hasSword)
+            if (Input.GetMouseButtonDown(1)&&playMove.hasSword&&playMove.canRanged)
             {
              
                 //Instantiate(shotEffect, shotPoint.position, Quaternion.identity);
