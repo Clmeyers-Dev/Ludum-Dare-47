@@ -125,6 +125,7 @@ public class playerMovement : MonoBehaviour {
         {
             attackCounter = attackTime;
             animator.SetBool("isAttacking", true);
+            soundManager.PlaySound("SwordHit");
             isAttacking = true;
         }
 

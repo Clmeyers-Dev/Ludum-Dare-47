@@ -48,6 +48,7 @@ public class BossState : MonoBehaviour
             Debug.Log("should slam");
             defaultEnemy.animator.SetBool("Slam", true);
             shakebake.TriggerShake();
+            soundManager.PlaySound("BossOneSound");
             SlamTime = 0;
         }
         else

@@ -40,6 +40,7 @@ public class BossProjectile : MonoBehaviour
             if (hitInfo.collider.CompareTag("Player"))
             {
                 hitInfo.collider.GetComponent<Player>().hurtPlayer(damage);
+                soundManager.PlaySound("DamageTaken");
                 fire.fist.SetActive(true);
             }
             Destroy(gameObject);

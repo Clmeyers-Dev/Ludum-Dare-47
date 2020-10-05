@@ -21,7 +21,7 @@ public class hurtPlayer : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            
+            soundManager.PlaySound("DamageTaken");
             player.hurtPlayer(damage);
             //Destroy(other.gameObject);
         }

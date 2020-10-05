@@ -270,8 +270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15dd909cf8793d4419bacc718e8f94c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 100
-  MaxHealth: 2
+  currentHealth: 200
+  MaxHealth: 200
   flashLength: 0.1
   deathDust: {fileID: 7087496285678700527, guid: 4331dfaae7ca7b9449671791cb436b0c,
     type: 3}
@@ -290,6 +290,7 @@ MonoBehaviour:
   defaultEnemy: {fileID: 526510159}
   eHealthMan: {fileID: 526510160}
   playMove: {fileID: 0}
+  shakebake: {fileID: 0}
   SlamTime: 0
   SlamStartTime: 0.5
   fire: {fileID: 599430490}
