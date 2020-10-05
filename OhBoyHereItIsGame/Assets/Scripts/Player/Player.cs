@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 public class Player : MonoBehaviour
 {
 
@@ -12,10 +12,9 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float flashLength = 0f;
     private float flashCounter = 0f;
-   public SceneManage sceny;
     private SpriteRenderer playerSprite;
-    public bool gameStart;
 
+ 
     // Start is called before the first frame update
     void Start()
     {
@@ -65,47 +64,18 @@ public class Player : MonoBehaviour
         }
         if(currentHealth <= 0)
         {
-           
             Debug.Log("kill player and bring to first level");
-           
-            Reset();
             //kill player and send back to first scene 
         }
 
         
 
     }
-    public void Reset()
-    {
-        gameStart = false;
-        currentHealth = 100;
-
-        for (int i = 0; i <= SceneManager.sceneCount-1; i++)
-        {
-            if (i == 0)
-            {
-
-            }
-            else
-            {
-                Debug.Log("unload scene " + i);
-                SceneManager.UnloadSceneAsync(i);
-            }
-           
-        }
-        if (!gameStart)
-        {
-            SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
-            gameStart = true;
-        }
-        
-    }
     public void hurtPlayer(int damage)
     {
         currentHealth -= damage;
         flashActive = true;
         flashCounter = flashLength;
-
 
     }
 }
