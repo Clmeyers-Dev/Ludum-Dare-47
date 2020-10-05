@@ -5,7 +5,7 @@ using UnityEngine;
 public class soundManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public static AudioClip BossOneSound, BossTwoSound, DamageTaken, Laser_Shoot, SwordHit, SwordPickup, SwordShoot;
+    public static AudioClip BossOneSound, BossTwoSound, DamageTaken, Laser_Shoot, SwordHit, SwordPickup, SwordShoot, BossDamageTaken;
     static AudioSource audiosrc;
     void Start()
     {
@@ -16,6 +16,8 @@ public class soundManager : MonoBehaviour
         SwordHit = Resources.Load<AudioClip>("SwordHit");
         SwordPickup = Resources.Load<AudioClip>("SwordPickup");
         SwordShoot = Resources.Load<AudioClip>("SwordShoot");
+        BossDamageTaken = Resources.Load<AudioClip>("BossDamageTaken");
+
         audiosrc = GetComponent<AudioSource>();
         
     }
@@ -42,6 +44,9 @@ public class soundManager : MonoBehaviour
                 break;
             case "SwordPickup":
                 audiosrc.PlayOneShot(SwordPickup);
+                break;
+            case "BossDamageTaken":
+                audiosrc.PlayOneShot(BossDamageTaken);
                 break;
         }
     }
