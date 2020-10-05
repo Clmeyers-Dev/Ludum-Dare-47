@@ -28,6 +28,14 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (currentHealth <= 0)
+        {
+
+            Debug.Log("kill player and bring to first level");
+
+            Reset();
+            //kill player and send back to first scene 
+        }
         if (flashActive)
         {
             if (flashCounter > flashLength * .99f)
@@ -65,14 +73,7 @@ public class Player : MonoBehaviour
             }
             flashCounter -= Time.deltaTime;
         }
-        if(currentHealth <= 0)
-        {
-           
-            Debug.Log("kill player and bring to first level");
-           
-            Reset();
-            //kill player and send back to first scene 
-        }
+       
 
         
 
@@ -84,8 +85,8 @@ public class Player : MonoBehaviour
 
 
         transform.position = origin.transform.position;
-
-        for (int i = 0; i <= SceneManager.sceneCount-1; i++)
+        SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
+        for (int i = 0; i < 3; i++)
         {
             if (i == 0)
             {
@@ -98,11 +99,10 @@ public class Player : MonoBehaviour
             }
            
         }
-        if (!gameStart)
-        {
-            SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
+       
+            
             gameStart = true;
-        }
+       
         
     }
     public void hurtPlayer(int damage)

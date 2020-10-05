@@ -12,11 +12,10 @@ public class RangedWeapon : MonoBehaviour
     // public GameObject shotEffect;
     public Transform shotPoint;
 
-    private float timeBtwShots;
-    private float timeBtwAttacks;
+   
     public float startTimeBtwAttacks;
     public float startTimeBtwShots;
-
+ 
 
     private void Start()
     {

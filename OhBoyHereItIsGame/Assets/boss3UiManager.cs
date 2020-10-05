@@ -9,7 +9,7 @@ public class boss3UiManager : MonoBehaviour
     public Slider healthBar;
     void Start()
     {
-        enemyHealth = FindObjectOfType<EnemyHealthManager>();
+        //enemyHealth = FindObjectOfType<EnemyHealthManager>();
     }
 
     // Update is called once per frame
