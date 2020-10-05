@@ -8,7 +8,7 @@ public class LineScript : MonoBehaviour
     
     public Vector3 startPos;
     public  Vector3 endPos;
-   public LineRenderer lr;
+    LineRenderer lr;
     public lineDrop linedrop;
     public Transform tempLineDrop;
     Vector3 camOffset = new Vector3(0, 0, 10);
@@ -34,7 +34,10 @@ public class LineScript : MonoBehaviour
         tempLineDrop = linedrop.transform;
         startPos = Boss.transform.position;
         endPos = tempLineDrop.transform.position;
-     
+        if (lr == null)
+        {
+            lr = gameObject.AddComponent<LineRenderer>();
+        }
 
         lr.enabled = true;
         lr.positionCount = 2;
@@ -42,6 +45,7 @@ public class LineScript : MonoBehaviour
         lr.useWorldSpace = true;
         lr.widthCurve = ac;
         lr.numCapVertices = 10;
+
 
         endPos = linedrop.transform.position;
         lr.SetPosition(1, endPos);

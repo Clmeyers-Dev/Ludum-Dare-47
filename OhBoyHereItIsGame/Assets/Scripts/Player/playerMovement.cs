@@ -236,10 +236,6 @@ public class playerMovement : MonoBehaviour {
     {
         canRanged = can;
     }
-    public void setCanDash(bool can)
-    {
-        canDash = can;
-    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Sword")

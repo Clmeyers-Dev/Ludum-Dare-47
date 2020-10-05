@@ -34,9 +34,8 @@ public class RangedWeapon : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(1)&&playMove.hasSword&&playMove.canRanged)
             {
-
+             
                 //Instantiate(shotEffect, shotPoint.position, Quaternion.identity);
-                soundManager.PlaySound("SwordShoot");
                 Instantiate(projectile, shotPoint.position, transform.rotation);
                 timeBtwShots = startTimeBtwShots;
                 playMove.setHasSword(false);
