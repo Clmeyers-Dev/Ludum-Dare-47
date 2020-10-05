@@ -544,7 +544,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7.95
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1746,7 +1746,7 @@ MonoBehaviour:
   startDashTime: 1
   direction: 0
   canRanged: 0
-  hasSword: 0
+  hasSword: 1
   canDash: 1
 --- !u!212 &2074509262
 SpriteRenderer:

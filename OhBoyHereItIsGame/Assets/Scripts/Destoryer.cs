@@ -5,9 +5,10 @@ using UnityEngine;
 public class Destoryer : MonoBehaviour
 {
     // Start is called before the first frame update
+    public float time=10f;
     void Start()
     {
-        Destroy(gameObject, 10f);
+        Destroy(gameObject, time);
     }
 
     // Update is called once per frame
