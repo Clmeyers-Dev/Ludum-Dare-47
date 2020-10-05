@@ -36,7 +36,7 @@ public class playerMovement : MonoBehaviour {
         hasSword = true;
     }
     // Update is called once per frame
-    void Update ()
+    void FixedUpdate ()
     {
         animator.SetBool("HasSword", hasSword);
         handleMovement();
@@ -106,6 +106,7 @@ public class playerMovement : MonoBehaviour {
             ButtonCount = 0;
         }
         handleAblities();
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime); rb.MovePosition(rb.position+movement*moveSpeed*Time.fixedDeltaTime);
     }
     public void handleAblities()
     {
@@ -248,11 +249,7 @@ public class playerMovement : MonoBehaviour {
             Destroy(other.gameObject);
         }
     }
-    private void FixedUpdate()
-    {
-        rb.MovePosition(rb.position+movement*moveSpeed*Time.fixedDeltaTime);
-       
-    }
+   
     public void dash()
     {
     }

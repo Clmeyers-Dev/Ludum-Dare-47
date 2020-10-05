@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
-
+    public GameObject player;
     public bool canBeHurt;
     public float currentHealth;
     public float maxHealth;
@@ -15,6 +15,8 @@ public class Player : MonoBehaviour
    public SceneManage sceny;
     private SpriteRenderer playerSprite;
     public bool gameStart;
+    public GameObject origin;
+ 
 
     // Start is called before the first frame update
     void Start()
@@ -78,7 +80,10 @@ public class Player : MonoBehaviour
     public void Reset()
     {
         gameStart = false;
-        currentHealth = 100;
+        currentHealth = maxHealth;
+
+
+        transform.position = origin.transform.position;
 
         for (int i = 0; i <= SceneManager.sceneCount-1; i++)
         {
