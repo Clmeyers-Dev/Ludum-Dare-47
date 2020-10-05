@@ -10,11 +10,11 @@ public class EnemyHealthManager : MonoBehaviour
     [SerializeField]
     private float flashLength = 0f;
     private float flashCounter = 0f;
-    private SpriteRenderer EnemySprite;
+    public SpriteRenderer EnemySprite;
     public GameObject deathDust;
     void Start()
     {
-        EnemySprite = GetComponent<SpriteRenderer>();
+       // EnemySprite = GetComponent<SpriteRenderer>();
       
     }
 
@@ -63,6 +63,7 @@ public class EnemyHealthManager : MonoBehaviour
     public void HurtEnemy(int damageToGive)
     {
         currentHealth -= damageToGive;
+        soundManager.PlaySound("BossDamageTaken");
         flashActive = true;
         flashCounter = flashLength;
         if (currentHealth <= 0)

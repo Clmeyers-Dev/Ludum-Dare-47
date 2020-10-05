@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class BossState : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -12,8 +12,12 @@ public class BossState : MonoBehaviour
     public float SlamTime;
     public float SlamStartTime;
     public Fire fire;
+    public GameObject loader;
+    public GameObject wall;
+    bool unloaded;
     void Start()
     {
+        loader.SetActive(false);
         shakebake = FindObjectOfType<ShakeBehavior>();
         playMove = FindObjectOfType<playerMovement>(); 
     }
@@ -24,9 +28,16 @@ public class BossState : MonoBehaviour
         Slam();
         if (eHealthMan.currentHealth <= 0)
         {
+
+
             playMove.setCanRanged(true);
+            wall.SetActive(false);
+            loader.SetActive(true);
             Destroy(gameObject);
         }
+
+
+        
     }
     public void fistShot()
     {

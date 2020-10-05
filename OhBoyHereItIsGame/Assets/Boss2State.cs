@@ -11,17 +11,22 @@ public class Boss2State : MonoBehaviour
     public float speed = 10.0f;
     public LineScript lineScript;
     public Boss2Aim Boss2Aim;
+    public EnemyHealthManager eHealthMan;
+    public playerMovement player;
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = FindObjectOfType<playerMovement>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
         tempTarget = FindObjectOfType<lineDrop>().transform.position;
-        target = tempTarget;
+        if(tempTarget!=null)
+            target = new Vector3(tempTarget.x, tempTarget.y, tempTarget.y);
+
         lineScript.MakeLine();
         if (CurrentTime <= startTime)
         {
@@ -31,19 +36,30 @@ public class Boss2State : MonoBehaviour
         else if(CurrentTime>= startTime)
         {
             Boss2Aim.shoot();
-            while (transform.position.x != target.x)
-            {
-                move();
-
-            }
+            target = target = new Vector3(tempTarget.x, tempTarget.y, tempTarget.y);
+            /* while (transform.position.x != target.x)
+             {
+                // transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+                 if(transform.position.x == target.x)
+                 {
+                     break;
+                 }
+             }*/
             CurrentTime = 0;
+
+            
         }
-       
+        if (eHealthMan.currentHealth <= 0)
+        {
+            //display somthing
+            player.setCanDash(true);
+            Destroy(gameObject);
+        }
 
     }
     public void move()
     {
         float step = speed * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, target, speed);
+        
     }
 }
